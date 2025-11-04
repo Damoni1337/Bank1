@@ -1,0 +1,32 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1129,5): warning MSB8027: Two or more files with the name of ClientFunction.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ClientFunction.cpp, ClientFunction\ClientFunction.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1129,5): warning MSB8027: Two or more files with the name of FstreamFunction.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are FstreamFunction.cpp, FstreamFunction\FstreamFunction.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1129,5): warning MSB8027: Two or more files with the name of Screen.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Screen.cpp, ShowOnScreen\Screen.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1129,5): warning MSB8027: Two or more files with the name of SetFunction.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are SetFunction.cpp, SetFunction\SetFunction.cpp.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1129,5): warning MSB8027: Two or more files with the name of UserInput.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are UserInput.cpp, UserInput\UserInput.cpp.
+  ClientFunction.cpp
+  ClientFunction.cpp
+\ClientFunction\ClientFunction.cpp(1,1): error C1083: Cannot open source file: 'ClientFunction\ClientFunction.cpp': No such file or directory
+  (compiling source file '/ClientFunction/ClientFunction.cpp')
+  
+  FstreamFunction.cpp
+C:\Users\Damoni\Desktop\Bank1\Bank1\FstreamFunction.cpp(27,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  FstreamFunction.cpp
+\FstreamFunction\FstreamFunction.cpp(1,1): error C1083: Cannot open source file: 'FstreamFunction\FstreamFunction.cpp': No such file or directory
+  (compiling source file '/FstreamFunction/FstreamFunction.cpp')
+  
+  main.cpp
+  Screen.cpp
+  SetFunction.cpp
+  SetFunction.cpp
+\SetFunction\SetFunction.cpp(1,1): error C1083: Cannot open source file: 'SetFunction\SetFunction.cpp': No such file or directory
+  (compiling source file '/SetFunction/SetFunction.cpp')
+  
+  Screen.cpp
+\ShowOnScreen\Screen.cpp(1,1): error C1083: Cannot open source file: 'ShowOnScreen\Screen.cpp': No such file or directory
+  (compiling source file '/ShowOnScreen/Screen.cpp')
+  
+  UserInput.cpp
+  UserInput.cpp
+\UserInput\UserInput.cpp(1,1): error C1083: Cannot open source file: 'UserInput\UserInput.cpp': No such file or directory
+  (compiling source file '/UserInput/UserInput.cpp')
+  
