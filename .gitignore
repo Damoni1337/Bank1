@@ -1,0 +1,26 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+
+# Build directories
+/build/
+/bin/
+/Debug/
+/Release/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Visual Studio specific files
+*.vcxproj.user
+*.suo
+*.user
+*.ncb
+*.opensdf
+*.sdf
+*.VC.db
